@@ -1,0 +1,102 @@
+From 192bea005001dcd04ba11c57efdca0925f2dc190 Mon Sep 17 00:00:00 2001
+From: Jari Aalto <jari.aalto@cante.net>
+Date: Mon, 25 Feb 2008 01:19:19 +0200
+Subject: [PATCH] Manual page: remove EOL whitespace
+
+Signed-off-by: Jari Aalto <jari.aalto@cante.net>
+---
+ ctorrent.1 |   84 ++++++++++++++++++++++++++++++------------------------------
+ 1 files changed, 42 insertions(+), 42 deletions(-)
+
+diff --git a/ctorrent.1 b/ctorrent.1
+index 6e479fd..a7dff7f 100644
+--- a/ctorrent.1
++++ b/ctorrent.1
+@@ -1,42 +1,42 @@
+-.TH "CTORRENT" "1" 
+-.SH "NAME" 
+-ctorrent \(em program that allows a user to download bittorrent files by using a terminal, even used remotely with an ssh access 
+-.SH "SYNOPSIS" 
+-.PP 
+-\fBctorrent\fR [\fB-e \fIthis\fR\fP]  [\fB\-\-example \fIthat\fR\fP]  
+-.SH "CTorrent is a BitTorrent Client written in C that 
+-doesn't require any graphical component, such as an X server. 
+-It's built as a console program and it can be even used remotely 
+-in a machine that provides outside ssh access." 
+-.PP 
+-This manual page documents briefly the 
+-\fBctorrent\fR and \fBbar\fR       commands. 
+-.PP 
+-This manual page was written for the \fBDebian\fP distribution 
+-because the original program does not have a manual page. 
+-Instead, it has documentation in the GNU       \fBInfo\fP format; see below. 
+-.PP 
+-\fBctorrent\fR is a program that allows you to download bittorrent files using a terminal, without having X support 
+-.SH "OPTIONS" 
+-.PP 
+-These programs follow the usual GNU command line syntax, 
+-with long options starting with two dashes (`\-').  A summary of 
+-options is included below.  For a complete description, see the 
+-\fBInfo\fP files. 
+-.IP "\fB-h\fP           \fB\-\-help\fP         " 10 
+-Show summary of options. 
+-.IP "\fB-v\fP           \fB\-\-version\fP         " 10 
+-Show version of program. 
+-.SH "AUTHOR" 
+-.PP 
+-This manual page was written by Andrea Veri bluekuja@ubuntu.com for 
+-the \fBDebian\fP system (but may be used by others).  Permission is 
+-granted to copy, distribute and/or modify this document under 
+-the terms of the GNU General Public License, Version 2 any  
+-later version published by the Free Software Foundation. 
+- 
+-.PP 
+-On Debian systems, the complete text of the GNU General Public 
+-License can be found in /usr/share/common-licenses/GPL. 
+- 
+-.\" created by instant / docbook-to-man, Thu 02 Aug 2007, 19:20 
++.TH "CTORRENT" "1"
++.SH "NAME"
++ctorrent \(em program that allows a user to download bittorrent files by using a terminal, even used remotely with an ssh access
++.SH "SYNOPSIS"
++.PP
++\fBctorrent\fR [\fB-e \fIthis\fR\fP]  [\fB\-\-example \fIthat\fR\fP]
++.SH "CTorrent is a BitTorrent Client written in C that
++doesn't require any graphical component, such as an X server.
++It's built as a console program and it can be even used remotely
++in a machine that provides outside ssh access."
++.PP
++This manual page documents briefly the
++\fBctorrent\fR and \fBbar\fR       commands.
++.PP
++This manual page was written for the \fBDebian\fP distribution
++because the original program does not have a manual page.
++Instead, it has documentation in the GNU       \fBInfo\fP format; see below.
++.PP
++\fBctorrent\fR is a program that allows you to download bittorrent files using a terminal, without having X support
++.SH "OPTIONS"
++.PP
++These programs follow the usual GNU command line syntax,
++with long options starting with two dashes (`\-').  A summary of
++options is included below.  For a complete description, see the
++\fBInfo\fP files.
++.IP "\fB-h\fP           \fB\-\-help\fP         " 10
++Show summary of options.
++.IP "\fB-v\fP           \fB\-\-version\fP         " 10
++Show version of program.
++.SH "AUTHOR"
++.PP
++This manual page was written by Andrea Veri bluekuja@ubuntu.com for
++the \fBDebian\fP system (but may be used by others).  Permission is
++granted to copy, distribute and/or modify this document under
++the terms of the GNU General Public License, Version 2 any
++later version published by the Free Software Foundation.
++
++.PP
++On Debian systems, the complete text of the GNU General Public
++License can be found in /usr/share/common-licenses/GPL.
++
++.\" created by instant / docbook-to-man, Thu 02 Aug 2007, 19:20
+-- 
+1.5.3.8
+

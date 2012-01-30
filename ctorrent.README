@@ -1,0 +1,75 @@
+ctorrent
+------------------------------------------
+
+BitTorrent client written in C++
+
+This application is written in the C++ language and doesn't require
+any graphical component, such as an X server. Original ctorrent's
+upstream has stopped its development and now it's kept updated with
+new releases/bug fixes by a new developer. It's built as a console
+program and it can be even used remotely in a machine that provides
+outside ssh access.
+
+Runtime requirements:
+  cygwin
+  openssl
+
+Build requirements:
+  cygwin
+  openssl-devel
+
+Canonical homepage:
+  http://sourceforge.net/projects/dtorrent/
+  http://www.rahul.net/dholmes/ctorrent
+  http://packages.debian.org/unstable/ctorrent
+
+  See also older project where this code is based on
+  http://sourceforge.net/projects/ctorrent/
+
+Canonical download:
+  See above
+
+Version control repository:
+  See sourceforge
+
+Mailing list:
+
+Forum / Wiki:
+  See sourceforge
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Dennis Holmes <dholmes999@users.sourceforge.net>, <dholmes@email.rahul.net>
+  Bugs: Dennis Holmes <dholmes999@users.sourceforge.net>
+
+License:
+  GPL
+
+Language:
+  C++
+
+------------------------------------------
+
+Build instructions:
+  unpack ctorrent-*-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./ctorrent*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See content of *.tar.gz
+
+------------------------------------------
+
+Port Notes:
+- No manual page. Copied from Debian.
+
+----- version 1.3.4-dnh3.2-1 -----
+- Initial release 2008-02-24 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2008 Jari Aalto; Licensed under GPL v2 or later

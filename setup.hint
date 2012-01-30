@@ -1,0 +1,9 @@
+sdesc: "BitTorrent client written in C++"
+ldesc: "This application is written in the C++ language and doesn't require
+any graphical component, such as an X server. Original ctorrent's
+upstream has stopped its development and now it's kept updated with
+new releases/bug fixes by a new developer. It's built as a console
+program and it can be even used remotely in a machine that provides
+outside ssh access."
+category: Net
+requires: cygwin openssl
