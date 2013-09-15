@@ -1,6 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: package N.N
-Subject: New package: ctorrent 1.3.4-1 -- BitTorrent client written in C++
+Subject: Updated: ctorrent 1.3.4-dnh3.2-2 -- BitTorrent client written in C++
 
 PACKAGE DESCRIPTION
 ===================
@@ -18,6 +17,7 @@ outside ssh access.
 CHANGES SINCE LAST RELEASE
 ==========================
 
+Cygwin package library depends
 http://www.rahul.net/dholmes/ctorrent/changelog.html
 
 INSTALL OR UPGRADE NOTES

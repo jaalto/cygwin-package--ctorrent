@@ -6,4 +6,4 @@ new releases/bug fixes by a new developer. It's built as a console
 program and it can be even used remotely in a machine that provides
 outside ssh access."
 category: Net
-requires: cygwin openssl
+requires: openssl100 libgcc1 libstdc++6

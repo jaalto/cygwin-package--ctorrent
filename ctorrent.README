@@ -11,11 +11,11 @@ program and it can be even used remotely in a machine that provides
 outside ssh access.
 
 Runtime requirements:
-  cygwin
-  openssl
+  openssl100
+  libstdc++6
+  libgcc1
 
 Build requirements:
-  cygwin
   openssl-devel
 
 Canonical homepage:
@@ -61,15 +61,19 @@ Build instructions:
 ------------------------------------------
 
 Files included in the binary distribution:
-  See content of *.tar.gz
+  See Cygwin package archive
 
 ------------------------------------------
 
 Port Notes:
 - No manual page. Copied from Debian.
 
+----- version 1.3.4-dnh3.2-2 -----
+- Cygwin package update 2013-09-15 Jari Aalto
+- Update depends (x64) openssl100 etc.
+
 ----- version 1.3.4-dnh3.2-1 -----
 - Initial release 2008-02-24 Jari Aalto
 
-Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2008 Jari Aalto; Licensed under GPL v2 or later
+Cygwin port maintained by: user <jari.aalto@cante.net>
+Copyright (C) 2008-2013 Jari Aalto; Licensed under GPL v2 or later
