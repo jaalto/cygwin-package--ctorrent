@@ -11,7 +11,7 @@ program and it can be even used remotely in a machine that provides
 outside ssh access.
 
 Runtime requirements:
-  openssl100
+  libopenssl100
   libstdc++6
   libgcc1
 
